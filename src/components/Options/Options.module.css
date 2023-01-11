@@ -1,0 +1,11 @@
+.options {
+  @apply space-y-4;
+}
+
+.option {
+  @apply block;
+}
+
+.checkbox {
+  @apply mr-2 accent-cyan-500;
+}

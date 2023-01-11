@@ -1,0 +1,16 @@
+.root {
+  @apply block;
+}
+
+.group {
+  @apply space-y-4;
+}
+
+.number {
+  @apply rounded bg-slate-50 px-4 py-2 text-center text-slate-900;
+}
+
+.number,
+.slider {
+  @apply block w-full accent-cyan-500;
+}

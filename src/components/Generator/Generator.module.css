@@ -1,0 +1,7 @@
+.root {
+  @apply min-w-[30vw] max-w-md space-y-6 overflow-auto rounded border p-6;
+}
+
+.generateBtn {
+  @apply block w-full rounded border px-4 py-2 transition-colors hover:bg-slate-800 focus:bg-slate-800;
+}

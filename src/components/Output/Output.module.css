@@ -1,0 +1,43 @@
+.root {
+  @apply space-y-4;
+}
+
+.output {
+  @apply flex  items-start rounded  bg-slate-50 px-4  py-2;
+}
+
+.password {
+  @apply mr-2 basis-full resize-none break-all bg-inherit font-mono text-xl text-slate-900 accent-cyan-500;
+}
+
+.copy {
+  @apply rounded border bg-slate-900 p-4 p-1 transition-colors hover:bg-slate-800 focus:bg-slate-800;
+}
+
+.strength {
+  @apply h-4 rounded;
+}
+
+.strength.veryWeak {
+  @apply bg-pink-500;
+}
+
+.strength.weak {
+  @apply bg-red-500;
+}
+
+.strength.medium {
+  @apply bg-yellow-500;
+}
+
+.strength.strong {
+  @apply bg-blue-500;
+}
+
+.strength.veryStrong {
+  @apply bg-green-500;
+}
+
+.label {
+  @apply font-bold;
+}
