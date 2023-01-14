@@ -143,6 +143,10 @@ const generate = (
   charset += includeNumber ? numbers : "";
   charset += includeSymbols ? symbols : "";
   let password = "";
+  if (charset.length === 0) {
+    return password;
+  }
+
   self.crypto.getRandomValues(new Uint32Array(length)).forEach((x) => {
     password += charset[x % charset.length];
   });
